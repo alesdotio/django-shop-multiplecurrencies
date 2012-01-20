@@ -23,8 +23,8 @@ This requires django SHOP to work (https://github.com/chrisglass/django-shop)
 ::
 
   SHOP_CURRENCIES=[ # lowercase codes, please
-    ['chf', 'swiss franc'],
-    ['eur', 'euro'],
+      ['chf', 'swiss franc'],
+      ['eur', 'euro'],
   ]
 
 Usage
@@ -38,8 +38,8 @@ Usage
   from shop.util.fields import CurrencyField as ShopCurrencyField
 
   class MyProduct(models.Model):
-    # my fields ...
-    price = CurrencyField(ShopCurrencyField)
+      # my fields ...
+      price = CurrencyField(ShopCurrencyField)
 
 * Extend BaseOrderItem
 
