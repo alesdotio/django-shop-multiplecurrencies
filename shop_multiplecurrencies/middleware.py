@@ -1,7 +1,7 @@
 from django.conf import settings
 from fields import set_currency
 
-class CurrencyMiddleware(object):
+class MultipleCurrenciesMiddleware(object):
     def get_currency_from_request (self, request):
         if hasattr(request, 'GET'):
             request_currency = request.GET.get('currency', False)

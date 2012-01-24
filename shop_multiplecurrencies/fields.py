@@ -2,7 +2,7 @@ from django.conf import settings
 from django.utils.translation import string_concat
 import threading
 
-class CurrencyField(object):
+class MultipleCurrenciesField(object):
     def __init__(self, field_class, *args, **kwargs):
         self.field_class = field_class
         self.args = args
