@@ -5,9 +5,9 @@ CLASSIFIERS = []
 
 setup(
     author="Ales Kocjancic",
-    author_email="neo64bit@gmail.com",
+    author_email="ales.kocjancic@divio.ch",
     name='django-shop-multiplecurrencies',
-    version='0.0.1',
+    version='1.0.0',
     description='Multiple currencies for Django Shop',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
     url='http://www.django-shop.org/',
