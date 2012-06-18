@@ -7,8 +7,9 @@ This app adds support for multiple currencies to django SHOP.
 Warning
 =======
 
-Do not use (yet)!
-This app is still under development and might not work at all.
+Please check the known issues before using.
+
+https://github.com/neo64bit/django-shop-multiplecurrencies/issues/1
 
 Installation
 ============
