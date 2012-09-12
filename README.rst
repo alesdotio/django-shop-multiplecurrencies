@@ -9,7 +9,7 @@ Warning
 
 Please check the known issues before using.
 
-https://github.com/neo64bit/django-shop-multiplecurrencies/issues/1
+https://github.com/alesdotio/django-shop-multiplecurrencies/issues/
 
 Installation
 ============
